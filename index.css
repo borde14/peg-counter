@@ -1,0 +1,70 @@
+body {
+    background-image: url("images/cocktail.jpg");
+    background-size: cover;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    /* font-weight: bold; */
+    text-align: center;
+    height: 100vh;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #03045E;
+    text-shadow: 0 0 3px #CAF0F8;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: "Montserrat", serif;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+#increment-btn {
+    background: #023E8A;
+}
+
+#decrement-btn {
+    background: #023E8A;
+}
+
+#save-btn {
+    background: #03045E;
+}
+
+.hero {
+    background: white;
+    max-width: 50%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+p {
+    font-weight: bold;
+    color: #03045E;
+    text-shadow: 0 0 1px #CAF0F8;
+}
