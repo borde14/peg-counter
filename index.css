@@ -56,6 +56,11 @@ button {
     background: #03045E;
 }
 
+#new-btn {
+    background: #F18403;
+    margin-top: 100px;
+}
+
 .hero {
     background: #AFDAE8;
     max-width: 30%;
