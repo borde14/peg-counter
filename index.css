@@ -19,6 +19,7 @@ body {
 } */
 
 h1 {
+    font-size: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #03045E;
@@ -44,8 +45,18 @@ button {
     border: 1px solid black
 }
 
+.hero button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 70px;
+    font-size: 40px;
+}
+
 #increment-btn {
     background: #023E8A;
+    
 }
 
 #decrement-btn {
@@ -56,14 +67,23 @@ button {
     background: #03045E;
 }
 
+#save-el {
+    font-size: 40px;
+}
+
 #new-btn {
     background: #F18403;
     margin-top: 100px;
+    width: 500px;
+    height: 70px;
+    font-size: 40px;
 }
 
 .hero {
     background: #AFDAE8;
-    max-width: 30%;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
